@@ -77,4 +77,4 @@ function tinyFriend(friends){
     }
     return tinyFriendName;
 };
-console.log(tinyFriend(['b', 'ba']))
+
