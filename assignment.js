@@ -1,7 +1,7 @@
 //Feet To Mile Converter
 // Formula : divide feet value by 5280;
 
-/**
+
 function feetToMile (feet){
     if ( feet == 0 ){
         return "0 feet is equal to 0 mile";
@@ -11,11 +11,9 @@ function feetToMile (feet){
         return mile;
     }
 };
-var result = feetToMile(2220);
-console.log(result);
-*/
-/** 
- // Brick Calculator
+
+
+ // Wood Calculator
 function woodCalculator(chair, table, bed){
     if(chair < 0 || table <0 || bed < 0){
         return "Number of wood can't be negative value"
@@ -28,10 +26,9 @@ function woodCalculator(chair, table, bed){
         return totalWood;
     }
 }
-console.log(woodCalculator(1, 0, 1));
-*/
 
-/** 
+
+ 
 
 //Brick Calculation
 
@@ -52,9 +49,8 @@ function brickCalculator(floor){
         return brick;
     }
 }
-console.log(brickCalculator(20));
 
-*/
+
 
 // Finding Tiny Friend
 
@@ -72,4 +68,3 @@ function tinyFriend(friendsName){
     }
     return tinyFriendNameLength;
 }
-console.log(tinyFriend(['basir', 'basi', 'bas']));
